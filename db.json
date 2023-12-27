@@ -1,0 +1,29 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "admin",
+			"password": "admin",
+			"name": "John",
+			"surname": "Doe",
+			"birthdate": "1990-01-01",
+			"city": "New York"
+		}
+	],
+	"tickets": [
+		{
+			"id": 1,
+			"authorId": 1,
+			"title": "Issue 1",
+			"message": "This is the first ticket.",
+			"createdDate": "2023-01-01"
+		},
+		{
+			"id": 2,
+			"authorId": 1,
+			"title": "Issue 2",
+			"message": "This is the second ticket.",
+			"createdDate": "2023-01-02"
+		}
+	]
+}
